@@ -34,7 +34,7 @@ class Solution(object):
 
         h=ListNode(0)
         res=h 
-        
+
         # 归并
         while(left and right):
             if left.val<=right.val:
